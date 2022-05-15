@@ -1,3 +1,47 @@
 body{
-  background : blue;
+  background : rgb(0, 189, 242);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+*{
+  text-align: center;
+}
+
+h1{
+  font-size : 32px;
+  font-family: 'Orbitron', sans-serif;
+
+}
+
+
+.imgPerfil{
+  background-image: url(../resources/img/perfil.png);
+  width: 100px;
+  height: 100px;
+  display: block;
+  background-position: center;
+  background-size: contain;
+  border-radius: 100%;
+}
+.cards{
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  display: block;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.card{
+height: 80px;
+  background-image: url(../resources/img/plantilla.png);
+  background-position: left;
+  background-color: rgb(216, 219, 218);
+  background-size: contain;
+  width: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  border: 1px solid white;
 }
