@@ -60,27 +60,27 @@ height: 80px;
   background-size: 60%;
 }
 
-.card .twitter{
+.card.twitter .icono{
   background-image: url(../resources/rrss/twitter.png);
 }
 
-.card .instagram{
+.card.instagram .icono{
   background-image: url(../resources/rrss/instagram.png);
 }
 
-.card .twitch{
+.card.twitch .icono{
   background-image: url(../resources/rrss/twitch.png);
 }
 
-.card .tiktok{
+.card.tiktok .icono{
   background-image: url(../resources/rrss/tiktok.png);
 }
 
-.card .discord{
+.card.discord .icono{
   background-image: url(../resources/rrss/discord.png);
 }
 
-.card .regalo{
+.card.regalo .icono{
   background-image: url(../resources/rrss/present.png);
 }
 
