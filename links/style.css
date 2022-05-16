@@ -41,7 +41,54 @@ height: 80px;
   background-color: rgb(216, 219, 218);
   background-size: contain;
   width: 100%;
-  display: block;
   background-repeat: no-repeat;
   border: 1px solid white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.card .icono {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  background-position: center;
+  background-size: contain;
+  background-size: 60%;
+}
+
+.card .twitter{
+  background-image: url(../resources/rrss/twitter.png);
+}
+
+.card .instagram{
+  background-image: url(../resources/rrss/instagram.png);
+}
+
+.card .twitch{
+  background-image: url(../resources/rrss/twitch.png);
+}
+
+.card .tiktok{
+  background-image: url(../resources/rrss/tiktok.png);
+}
+
+.card .discord{
+  background-image: url(../resources/rrss/discord.png);
+}
+
+.card .regalo{
+  background-image: url(../resources/rrss/present.png);
+}
+
+
+
+
+
+.card .texto {
+  padding-left: 80px;
+  width: 100%;
 }
