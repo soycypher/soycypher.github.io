@@ -47,6 +47,8 @@ height: 80px;
   align-items: center;
   cursor: pointer;
   position: relative;
+  text-decoration: unset;
+    color: black;
 }
 
 .card .icono {
