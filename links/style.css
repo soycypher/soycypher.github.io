@@ -80,6 +80,11 @@ height: 80px;
   background-image: url(../resources/rrss/discord.png);
 }
 
+.card.email .icono{
+  background-image: url(../resources/rrss/email.png);
+}
+
+
 .card.regalo .icono{
   background-image: url(../resources/rrss/present.png);
 }
